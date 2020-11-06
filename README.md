@@ -1,4 +1,5 @@
-This fork contains precompiled firmware for the Big Tree Tech SKR Mini E3 V2/Creality Ender 3 Pro. It is precompiled for: 
+This fork contains precompiled firmware for the Big Tree Tech SKR Mini E3 V2/Creality Ender 3 Pro. There is no need to add configuration files. The configuration.h and configuration_adv.h are ready to go. It is precompiled for: 
+
 BL Touch/3D Touch Z Homing.
 
 Fixes issue with non controlable part cooling fan. [https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/430 ] 
