@@ -1,9 +1,23 @@
-This fork contains precompiled firmware for the Big Tree Tech SKR Mini E3 V2/Creality Ender 3 Pro. It is precompiled for: BL Touch/3D Touch Z Homing Fixes issue with non controlable part cooling fan [ https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/430 ] Enables NeoPixel LEDs W start up test and temprature reactive LED colors. Removes software endstops/Enables menu item. Enables baby stepping on Z axis Allows movement to negative values on Z axis upon disabling software endstops in menu.
+This fork contains precompiled firmware for the Big Tree Tech SKR Mini E3 V2/Creality Ender 3 Pro. It is precompiled for: 
+BL Touch/3D Touch Z Homing.
+
+Fixes issue with non controlable part cooling fan. [https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/430 ] 
+
+Enables NeoPixel LEDs W start up test and temprature reactive LED colors. Just plug in your LEDs to the board. 60 LED strip enabled. (You may need further edits to the config file for more LEDs)
+
+Removes software endstops/Enables menu item.
+
+Enables baby stepping on Z axis Allows movement to negative values on Z axis upon disabling software endstops in menu.
+
 Fixes an issue where parts fan reports zero on TFT display.
+
+Works with BTT TFT35 or stock Ender 3 control/display unit.
 
 To use, simply load the firmware.bin file onto an SD card and insert into your BTT SKR mini SD slot. Power on the machine and wait until the boot screen has finised loading. Once done your baord will be updated. It is important that the file name be all lower case. Once the update is complete, the BTT SKR Mini will rename the firmware.bin to FIRMWARE.cur.
 
+Use this firmware at your own risk. It has been tested working and stable on my stock Ender 3 with stock motors.
 
+For other printers visit the main Marlin Repo.
 
 # Marlin 3D Printer Firmware
 
